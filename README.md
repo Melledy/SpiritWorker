@@ -6,7 +6,7 @@ A WIP server emulator for SoulWorker (GF 1.7.20.2). Currently, you can spawn in 
 ### Prerequisites
 * Java 8 JDK
 * Mongodb (recommended 4.0+)
-* GF soulworker client (1.7.20.2) installed
+* GF soulworker client (1.7.20.2 or 1.7.21.2) installed
 
 ### Starting up the server
 1. Compile the server with `./gradlew jar`
@@ -19,5 +19,7 @@ Run the client with `SoulWorker.exe --authCode aaaaa --ip 127.0.0.1 --port 9000`
 
 ### In game commands
 `!give [item id] [count]` - Gives {count} amount of {item id}
+
 `!starterpack` - Gives you a full set of the Vistor's armor and Tathata’s jewelry
+
 `!changestat [stat id] [value]` - Sets one of your stats to {value}
